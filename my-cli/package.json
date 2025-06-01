@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "my-cli",
+  "version": "1.0.0",
+  "bin": {
+    "my-cli": "src/index.js"
+  },
+  "description": "A simple CLI tool",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "enquirer": "^2.4.1",
+    "got": "^14.4.7",
+    "yargs": "^17.7.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
